@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity432">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="492dp"
+        android:layout_height="812dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.506"
+        app:srcCompat="@drawable/blue" />
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="145dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="253dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="723dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Next"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+    <Button
+        android:id="@+id/previous1"
+        android:layout_width="145dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginRight="253dp"
+        android:layout_marginBottom="723dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Previous"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="396dp"
+        android:layout_height="830dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Question 4 :"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="367dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:fontFamily="@font/arvo_italic"
+                android:text="Which of these class is used to read characters in a file?"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/fourop1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="FileReader"
+                android:textColor="@color/black"
+                app:backgroundTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/fourop2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="filewriter"
+                android:textColor="@color/black"
+                app:backgroundTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/fourop3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="fileinputstream"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/white" />
+
+            <Button
+                android:id="@+id/fourop4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="inputstreamreader"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView411"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Question 5 :"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView511"
+                android:layout_width="369dp"
+                android:layout_height="86dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:fontFamily="@font/arvo_italic"
+                android:text="What does AWT stands for ?"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/fiveop1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="All Window Tools"
+                android:textColor="@color/black"
+                app:backgroundTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/fiveop2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="All Writing Tools"
+                android:textColor="@color/black"
+                app:backgroundTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/fiveop3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Abstract Window Toolkit"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/white" />
+
+            <Button
+                android:id="@+id/fiveop4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Abstract Writing Toolkit"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Question 6 :"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="369dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:fontFamily="@font/arvo_italic"
+                android:text="Which of these is a type of stream in Java?"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/sixop1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Integer stream"
+                android:textColor="@color/black"
+                app:backgroundTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sixop2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Short stream"
+                android:textColor="@color/black"
+                app:backgroundTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sixop3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Byte stream"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/white" />
+
+            <Button
+                android:id="@+id/sixop4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Long stream"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

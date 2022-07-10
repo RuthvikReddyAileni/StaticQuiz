@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobilequiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileQuiz">
+        <activity android:name=".Activity4score"
+            android:label="Congratulations for Winning">
+
+        </activity>
+        <activity android:name=".Activity3score"
+            android:label="Congratulations for Winning"/>
+        <activity android:name=".Activity434"
+            android:label="Round 3"/>
+        <activity android:name=".Activity435"
+            android:label="Round 3"/>
+        <activity android:name=".Activity433"
+            android:label="Round 3"/>
+        <activity android:name=".Activity432"
+            android:label="Round 3"/>
+        <activity android:name=".Activity431"
+            android:label="Round 3"/>
+        <activity android:name=".Activity335"
+            android:label="Round 3"/>
+        <activity android:name=".Activity333"
+            android:label="Round 3"/>
+        <activity android:name=".Activity334"
+            android:label="Round 3"/>
+        <activity android:name=".Activity332"
+            android:label="Round 3"/>
+        <activity android:name=".Activity331"
+            android:label="Round 3"/>
+        <activity android:name=".Activity4main"
+            android:label="Java"/>
+        <activity android:name=".Activity43"
+            android:label="Round 3"/>
+        <activity android:name=".Activity425"
+            android:label="Round 2"/>
+        <activity android:name=".Activity424"
+            android:label="Round 2"/>
+        <activity android:name=".Activity423"
+            android:label="Round 2"/>
+        <activity android:name=".Activity422"
+            android:label="Round 2"/>
+        <activity android:name=".Activity421"
+            android:label="Round 2"/>
+        <activity android:name=".Activity3main"
+            android:label="C language"/>
+        <activity android:name=".Activity33"
+            android:label="Round 3"/>
+        <activity android:name=".Activity325"
+            android:label="Round 2"/>
+        <activity android:name=".Activity324"
+            android:label="Round 2"/>
+        <activity android:name=".Activity323"
+            android:label="Round 2"/>
+        <activity
+            android:label="Round 2"
+            android:name=".Activity322" />
+        <activity android:name=".Activity42"
+            android:label="Round 2"/>
+        <activity android:name=".Activity414"
+            android:label="Round 1"/>
+        <activity android:name=".Activity413"
+            android:label="Round 1"/>
+        <activity android:name=".Activity412"
+            android:label="Round 1"/>
+        <activity android:name=".Activity411"
+            android:label="Round 1"/>
+        <activity android:name=".Activity41"
+            android:label="Round 1"/>
+        <activity
+            android:name=".Activity321"
+            android:label="Round 2" />
+        <activity
+            android:name=".Activity32"
+            android:label="C language Quiz" />
+        <activity
+            android:name=".Activity314"
+            android:label="Round 1" />
+        <activity
+            android:name=".Activity313"
+            android:label="Round 1" />
+        <activity
+            android:name=".Activity312"
+            android:label="Round 1" />
+        <activity
+            android:name=".Activity311"
+            android:label="Round 1" />
+        <activity
+            android:name=".Activity31"
+            android:label="Round 1" />
+        <activity
+            android:name=".Activity4"
+            android:label="Java Quiz" />
+        <activity
+            android:name=".Activity3"
+            android:label="C language Quiz" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
